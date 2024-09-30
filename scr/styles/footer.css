@@ -1,0 +1,66 @@
+footer {
+    background-color: #97c39dff;
+}
+
+#footer_items {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8% 24px 8%;
+    align-items: center;
+
+}
+
+#copyright {
+    color: #1d1d1d;
+    font-weight: 500;
+
+}
+
+@media screen and (max-width: 600px) {
+  #footer_items{
+    flex-direction: column;
+    gap: 20px
+    ;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+.social-media-botao {
+    display: flex;
+    gap: 18px;
+  }
+  
+  .social-media-botao a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 40px;
+    background-color: white;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #1d1d1d;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow .3s ease;
+  }
+  
+  .social-media-botao a:hover {
+    box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.1);
+  }
